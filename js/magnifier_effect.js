@@ -1,8 +1,8 @@
 /*******************************************************************
  * @authors yanmo
- * @web
- * @email
- * @date
+ * @web http://www.jianshu.com/u/319464da1cc1
+ * @email ym1185509297@163.com
+ * @date 2015年9月4日
  * @version Beta 1.0
  *******************************************************************/
 (function($) {
@@ -13,8 +13,7 @@
             size: 400, // 大小
             magnifierImgUrl: '',  // 不需要需要轮播时，填写放大镜的url
             imgArray: [], // 需要需要轮播时，填写放大镜的url数组
-            maskBackground: '#333',
-            magnifierMode: 'WHsameadaption' // 放大镜模式-宽高相等自适应
+            maskBackground: '#333'
         }, F);
 
         // 仔细看这个 F 这个是必须一致的。
