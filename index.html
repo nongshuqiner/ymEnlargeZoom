@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/magnifier_effect.css">
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/magnifier_effect.js'></script>
+  </head>
+  <body>
+    <div class="magnifier_effect"></div>
+    <script type="text/javascript">
+      $('.magnifier_effect').ymEnlargeZoom({
+        size: 400, // 大小,范围800-250之间
+        // maskBackground: 'red', // 放大镜颜色，默认：#333
+        // magnifierImgUrl: 'image/3.jpg', // 不需要需要轮播时，填写放大镜的url
+        imgArray: ['image/0.jpg', 'image/1.jpg', 'image/2.jpg', 'image/3.jpg', 'image/4.jpg'] // 需要需要轮播时，填写放大镜的url数组
+      })
+    </script>
+  </body>
+</html>
